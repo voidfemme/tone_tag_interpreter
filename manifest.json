@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Tone Tag Interpreter",
+  "version": "1.0",
+  "description": "Interprets and displays tone tags in web text.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
